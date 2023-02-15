@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors, cascade_invocations
 import 'dart:collection';
 
-import 'package:cellular_automaton/cellular_automaton.dart';
 import 'package:test/test.dart';
+import 'package:yaca/yaca.dart';
 
 void main() {
   group('$CellularAutomaton', () {
@@ -12,10 +12,6 @@ void main() {
         isNotNull,
       );
     });
-
-    group('state', () {});
-
-    group('rules', () {});
 
     group('step', () {
       test('applies rules', () async {

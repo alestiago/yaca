@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:collection';
 
-import 'package:cellular_automaton/cellular_automaton.dart';
+import 'package:yaca/yaca.dart';
 
 export 'rule.dart';
 
